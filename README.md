@@ -1,2 +1,2 @@
-# NMTScheduals
-NMT programmed Schedualing app
+# NMTSchedules
+NMT programmed Scheduling app
