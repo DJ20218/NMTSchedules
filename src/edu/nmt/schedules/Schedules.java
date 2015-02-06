@@ -1,11 +1,13 @@
-package edu.nmt.scheduals;
+package edu.nmt.schedules;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 import android.view.View;
+import android.app.Fragment;
+import android.app.FragmentManager;
 
-public class Scheduals extends Activity
+public class Schedules extends Activity
 {
     private int count = 0;
     /** Called when the activity is first created. */
@@ -20,4 +22,10 @@ public class Scheduals extends Activity
 	TextView texty = (TextView) findViewById(R.id.mytextview);	
 	texty.setText("Hello World: "+count);
     }
+    public void stab(View view) {
+	setContentView(R.layout.stabby);
+    }
+
+
+
 }
